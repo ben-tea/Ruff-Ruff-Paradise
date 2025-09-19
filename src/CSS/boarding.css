@@ -1,0 +1,35 @@
+/* Info Sections */ 
+
+.info-section { 
+  padding: 4rem 2rem; 
+  background: #f9f9f9; 
+} 
+
+.info-section:nth-child(even) { 
+  background: #fff; 
+} 
+
+.info-content { 
+  display: flex; 
+  align-items: center; 
+  gap: 2rem; 
+  max-width: 1100px; 
+  margin: 0 auto; 
+} 
+
+.info-content.reverse { 
+  flex-direction: 
+  row-reverse; 
+} 
+
+.info-text {
+  flex: 1;    
+} 
+
+.info-image { 
+  flex: 1; 
+  width: 100%; 
+  max-width: 500px; 
+  border-radius: 10px; 
+  object-fit: cover; 
+}
