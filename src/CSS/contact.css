@@ -1,0 +1,75 @@
+/* General Section Styling */
+.info-section {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+.info-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.info-text p {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.contact-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-section li {
+  margin: 0.4rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.contact-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+
+/* Map Styling */
+.map-container {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

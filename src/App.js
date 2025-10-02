@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home';
 import Grooming from './pages/Grooming';
 import Boarding from './pages/Boarding';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/grooming" element={<Grooming />} />
             <Route path="/boarding" element={<Boarding />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 
