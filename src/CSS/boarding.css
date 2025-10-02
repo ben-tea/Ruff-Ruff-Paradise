@@ -1,35 +1,145 @@
-/* Info Sections */ 
+/* General Info Section */
+.info-section {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
 
-.info-section { 
-  padding: 4rem 2rem; 
-  background: #f9f9f9; 
-} 
+.info-section:nth-child(even) {
+  background: #fff;
+}
 
-.info-section:nth-child(even) { 
-  background: #fff; 
-} 
+.info-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+}
 
-.info-content { 
-  display: flex; 
-  align-items: center; 
-  gap: 2rem; 
-  max-width: 1100px; 
-  margin: 0 auto; 
-} 
-
-.info-content.reverse { 
-  flex-direction: 
-  row-reverse; 
-} 
+.info-content.reverse {
+  flex-direction: row-reverse;
+}
 
 .info-text {
-  flex: 1;    
-} 
+  flex: 1;
+}
 
-.info-image { 
-  flex: 1; 
-  width: 100%; 
-  max-width: 500px; 
-  border-radius: 10px; 
-  object-fit: cover; 
+.info-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.info-text p {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+.info-image {
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Boarding Sections */
+.boarding-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.boarding-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.boarding-section h4 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+  color: #555;
+}
+
+.boarding-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Requirements Block */
+.requirement-block {
+  margin-top: 1.5rem;
+}
+
+.requirement-block h4 {
+  font-size: 1.4rem;
+  margin: 1rem 0 0.5rem;
+  color: #555;
+}
+
+.requirement-block ul {
+  list-style: disc inside;
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 1rem;
+}
+
+.requirement-block li {
+  margin: 0.3rem 0;
+}
+
+/* Pricing Sections */
+.pricing-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.pricing-section h4 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+  color: #444;
+}
+
+.pricing-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pricing-section li {
+  margin: 0.4rem 0;
+  padding-left: 1rem;
+  position: relative;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.pricing-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #666;
 }
