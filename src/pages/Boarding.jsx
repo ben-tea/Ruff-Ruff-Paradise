@@ -1,4 +1,9 @@
 import '../CSS/boarding.css';
+import boardingImage from '../Images/daycare-image.jfif'
+import dogboarding1 from '../Images/dogboarding1.avif'
+import dogboarding2 from '../Images/dogboarding2.avif'
+import catboarding1 from '../Images/catboarding1.avif'
+import catboarding2 from '../Images/catboarding2.avif'
 
 function Boarding() {
   return (
@@ -13,7 +18,7 @@ function Boarding() {
           </p>
         </div>
         <img
-          src="https://images.unsplash.com/photo-1560807707-8cc77767d783"
+          src={boardingImage}
           alt="Dogs playing"
           className="info-image"
         />
@@ -96,6 +101,22 @@ function Boarding() {
           <li>4' x 6' Suite – $48</li>
           <li>Second pet in same enclosure – $20</li>
         </ul>
+
+              <div className="photo-section">
+        <div className="photo-content">
+          <div className="photo-item">
+            <img
+              src={dogboarding1}
+            />
+          </div>
+          <div className="photo-item">
+            <img
+              src={dogboarding2}
+            />
+          </div>
+        </div>
+      </div>
+
       </div>
 
       {/* Cat Boarding */}
@@ -105,7 +126,24 @@ function Boarding() {
           $26 per night – Includes free roam in our cat room most of the day, with cozy,
           safe overnight housing and plenty of personal attention.
         </p>
+
+        <div className="photo-section">
+        <div className="photo-content">
+          <div className="photo-item">
+            <img
+              src={catboarding1}
+            />
+          </div>
+          <div className="photo-item">
+            <img
+              src={catboarding2}
+            />
+          </div>
+        </div>
       </div>
+      </div>
+
+
 
       {/* Combined Playtime & Extras */}
       <div className="pricing-section">

@@ -5,11 +5,13 @@ import Home from './pages/Home';
 import Grooming from './pages/Grooming';
 import Boarding from './pages/Boarding';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <Navbar /> 
 

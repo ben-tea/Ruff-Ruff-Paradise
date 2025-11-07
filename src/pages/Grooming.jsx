@@ -1,4 +1,7 @@
 import '../CSS/grooming.css';
+import groomingImage from "../Images/grooming-image.avif"
+import grooming1 from "../Images/grooming1.avif"
+import grooming2 from "../Images/grooming2.avif"
 
 function Grooming() {
   return (
@@ -12,7 +15,7 @@ function Grooming() {
           </p>
         </div>
         <img
-          src="https://static.wixstatic.com/media/41d000_be4fe58d6666a9b14eee2518d955d24d.png/v1/fill/w_344,h_555,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41d000_be4fe58d6666a9b14eee2518d955d24d.png"
+          src={groomingImage}
           alt="Dog grooming"
           className="info-image"
         />
@@ -149,6 +152,22 @@ function Grooming() {
             dyes or parabens – premium products trusted in professional grooming.
           </strong>
         </p>
+
+                <div className="photo-section">
+        <div className="photo-content">
+          <div className="photo-item">
+            <img
+              src={grooming1}
+            />
+          </div>
+          <div className="photo-item">
+            <img
+              src={grooming2}
+            />
+          </div>
+        </div>
+      </div>
+
       </div>
     </section>
   );
