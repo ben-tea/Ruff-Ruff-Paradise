@@ -1,4 +1,6 @@
-/* General Info Section */
+
+/* GENERAL INFO SECTION */
+
 .info-section {
   padding: 4rem 2rem;
   background: #f9f9f9;
@@ -38,23 +40,30 @@
   color: #444;
 }
 
+
+/* RESPONSIVE INFO IMAGE (NEW) */
+
+
 .info-image {
   flex: 1;
-  width: 100%;
+  width: clamp(260px, 40vw, 500px); 
   max-width: 500px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease;
 }
 
-/* Boarding Sections */
+/* BOARDING SECTIONS */
+
+
 .boarding-section {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 2rem;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .boarding-section h3 {
@@ -75,7 +84,10 @@
   color: #444;
 }
 
-/* Requirements Block */
+ 
+/* REQUIREMENTS BLOCK */
+
+
 .requirement-block {
   margin-top: 1.5rem;
 }
@@ -96,14 +108,17 @@
   margin: 0.3rem 0;
 }
 
-/* Pricing Sections */
+ 
+/* PRICING */
+ 
+
 .pricing-section {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 2rem;
   background: #f5f7fa;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .pricing-section h3 {
@@ -144,6 +159,10 @@
   color: #666;
 }
 
+ 
+/* PHOTO SECTION */
+ 
+
 .photo-section {
   padding: 2rem;
 }
@@ -160,12 +179,81 @@
 
 .photo-item img {
   width: 100%;
-  height: 350px;
-  max-width: 400px; 
+  height: clamp(220px, 30vw, 350px); 
+  max-width: 400px;
   border-radius: 12px;
-  object-fit: cover; 
+  object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
+ 
+/* RESPONSIVE BREAKPOINTS */
+ 
 
+/* Tablets ≤1024px */
+@media (max-width: 1024px) {
+  .info-content,
+  .info-content.reverse {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .info-image {
+    width: clamp(220px, 70vw, 420px);
+    margin: 1rem auto 0;
+    max-height: 350px;
+  }
+
+
+  .info-text h2 { font-size: 2rem; }
+  .info-text p { font-size: 1.1rem; }
+
+  .photo-item img {
+    height: 300px;
+  }
+}
+
+/* Tablets & Large Phones ≤768px */
+@media (max-width: 768px) {
+  .info-content,
+  .info-content.reverse {
+    flex-direction: column-reverse !important;
+    text-align: center;
+  }
+
+  .info-image {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 70%;
+
+  }
+
+
+  .photo-item img {
+    height: 260px;
+  }
+}
+
+/* Phones ≤480px */
+@media (max-width: 480px) {
+  .info-section {
+    padding: 3rem 1rem;
+  }
+
+  .info-text h2 { font-size: 1.6rem; }
+  .info-text p { font-size: 1rem; }
+
+  .info-image {
+    max-height: 250px; 
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 70%;
+
+  }
+
+  .photo-item img {
+    height: 220px;
+  }
+}

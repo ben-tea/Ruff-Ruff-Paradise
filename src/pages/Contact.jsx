@@ -25,7 +25,8 @@ function Contact() {
 
         <p>
           <strong>Phone:</strong> <a href="tel:8329871881">832-987-1881</a><br />
-          <strong>Email:</strong> <a href="mailto:ruffruffparadise@gmail.com">ruffruffparadise@gmail.com</a>
+          <strong>Email:</strong> <a href="mailto:ruffruffparadise@gmail.com">ruffruffparadise@gmail.com</a><br />
+          <strong>Yelp:</strong> <a href="https://www.yelp.com/biz/ruff-ruff-paradise-pet-care-and-more-stafford">Ruff Ruff Paradise</a>
         </p>
       </div>
 
@@ -33,7 +34,7 @@ function Contact() {
       <div className="contact-section">
         <h3>Business Hours</h3>
         <ul>
-          <li>Monday – Friday: 9:00 AM – 4:00 PM</li>
+          <li>Monday: Friday: 9:00 AM – 4:00 PM</li>
           <li>Saturday: 10:00 AM – 4:00 PM</li>
           <li>Sunday: Closed</li>
         </ul>
@@ -44,8 +45,8 @@ function Contact() {
         <h3>Directions</h3>
         <p>
           We’re near the intersection of Murphy Road (1092) and Cash Road. 
-          From the intersection, turn east onto Cash Road. After about 0.1 
-          left. Right after the church, make a left turn and continue to 
+          From the intersection, turn east onto Cash Road. After about 0.1 miles,
+          passing the Sugar Land Chinese Baptist Church on the left, make a left turn and continue to 
           the end of the road. You’ll see the GPi company straight ahead—Ruff
           Ruff Paradise is located just to the right.
         </p>

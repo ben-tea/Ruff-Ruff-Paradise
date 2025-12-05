@@ -1,4 +1,5 @@
-/* General Info Section */
+/* GENERAL INFO SECTION */
+
 .info-section {
   padding: 4rem 2rem;
   background: #f9f9f9;
@@ -34,14 +35,38 @@
 
 .info-image {
   flex: 1;
-  width: 100%;
+  width: clamp(250px, 40vw, 500px);
   max-width: 500px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: width 0.3s ease; 
 }
 
-/* Grooming Sections */
+/* PROMOTION BLOCK */
+
+
+.promo-block {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fffbf0;
+  border-left: 6px solid #ff9800;
+  border-radius: 12px;
+}
+
+.promo-block h3 {
+  font-size: 1.6rem;
+}
+
+.promo-block p {
+  font-size: 1.2rem;
+}
+
+ 
+/* GROOMING & REQUIREMENTS SECTIONS */
+ 
+
 .grooming-section {
   max-width: 1000px;
   margin: 2rem auto;
@@ -54,18 +79,16 @@
 .grooming-section h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #333;
 }
 
 .grooming-section h4 {
   font-size: 1.4rem;
   margin: 1rem 0 0.5rem;
-  color: #555;
 }
 
 .grooming-section ul {
   list-style: disc inside;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0 1rem;
   padding-left: 1rem;
 }
 
@@ -73,26 +96,10 @@
   margin: 0.3rem 0;
 }
 
-/* Promotion Block */
-.promo-block {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: #fffbf0;
-  border-left: 6px solid #ff9800;
-  border-radius: 12px;
-}
+ 
+/* PRICING */
+ 
 
-.promo-block h3 {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-}
-
-.promo-block p {
-  font-size: 1.2rem;
-}
-
-/* Pricing */
 .pricing-section {
   max-width: 1000px;
   margin: 2rem auto;
@@ -129,6 +136,10 @@
   color: #666;
 }
 
+ 
+/* PHOTO SECTION */
+ 
+
 .photo-section {
   padding: 2rem;
 }
@@ -136,7 +147,6 @@
 .photo-content {
   display: flex;
   justify-content: center;
-  align-items: stretch;
   gap: 2rem;
   max-width: 1100px;
   margin: 0 auto;
@@ -146,9 +156,109 @@
 .photo-item img {
   width: 100%;
   height: 350px;
-  max-width: 400px; 
+  max-width: 400px;
   border-radius: 12px;
-  object-fit: cover; 
+  object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+ 
+/* RESPONSIVE BREAKPOINTS */
+ 
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+
+  .info-image {
+    width: 10px;
+  }
+  .info-content {
+    padding: 0 1rem;
+  }
+
+  .info-text h2 {
+    font-size: 2rem;
+  }
+
+  .info-text p {
+    font-size: 1.1rem;
+  }
+
+  .promo-block,
+  .grooming-section,
+  .pricing-section {
+    padding: 1.5rem;
+  }
+
+  .photo-item img {
+    height: 300px;
+  }
+}
+
+/* Mobile Landscape + Small Tablets (≤ 768px) */
+@media (max-width: 768px) {
+
+  .info-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-image {
+  width: clamp(200px, 60vw, 400px); 
+  }
+
+  .info-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .info-text p {
+    font-size: 1.05rem;
+  }
+
+  .grooming-section,
+  .pricing-section,
+  .promo-block {
+    text-align: center;
+  }
+
+  .photo-item img {
+    height: 260px;
+  }
+}
+
+/* Phones (≤ 480px) */
+@media (max-width: 480px) {
+
+  .info-image {
+  width: clamp(180px, 70vw, 350px);
+  }
+
+  .info-section {
+    padding: 3rem 1rem;
+  }
+
+  .info-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .info-text p {
+    font-size: 1rem;
+  }
+
+  .promo-block h3,
+  .grooming-section h3,
+  .pricing-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .promo-block p,
+  .grooming-section p,
+  .pricing-section p {
+    font-size: 1rem;
+  }
+
+  .photo-item img {
+    height: 220px;
+  }
 }

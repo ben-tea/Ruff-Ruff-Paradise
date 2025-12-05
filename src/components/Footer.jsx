@@ -13,11 +13,6 @@ function Footer() {
             📞 <a href="tel:8329871881">832-987-1881</a>
           </p>
         </div>
-
-        {/* Copyright */}
-        <div className="footer-copy">
-          <p>© {new Date().getFullYear()} Ruff Ruff Paradise. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   );
