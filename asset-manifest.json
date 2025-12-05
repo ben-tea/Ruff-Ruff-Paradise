@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ruff-Ruff-Paradise/static/css/main.5cf4eb68.css",
-    "main.js": "/Ruff-Ruff-Paradise/static/js/main.8b5422c0.js",
+    "main.js": "/Ruff-Ruff-Paradise/static/js/main.153c75d2.js",
     "static/media/daycare-image.jfif": "/Ruff-Ruff-Paradise/static/media/daycare-image.f346202d22b64523ed23.jfif",
     "static/media/968d20_~mv2.avif": "/Ruff-Ruff-Paradise/static/media/968d20_3343d7244d8e48e0841105afa9b5b411~mv2.a19bbfe86fd6837db4bb.avif",
     "static/media/968d20_~mv2_d_1920_3412_s_2.avif": "/Ruff-Ruff-Paradise/static/media/968d20_e6fed5381e004674a2f6398856158e71~mv2_d_1920_3412_s_2.8a7c732cb74587c97b0f.avif",
@@ -23,10 +23,10 @@
     "static/media/grooming-image.avif": "/Ruff-Ruff-Paradise/static/media/grooming-image.4d215641989878cc8461.avif",
     "index.html": "/Ruff-Ruff-Paradise/index.html",
     "main.5cf4eb68.css.map": "/Ruff-Ruff-Paradise/static/css/main.5cf4eb68.css.map",
-    "main.8b5422c0.js.map": "/Ruff-Ruff-Paradise/static/js/main.8b5422c0.js.map"
+    "main.153c75d2.js.map": "/Ruff-Ruff-Paradise/static/js/main.153c75d2.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf4eb68.css",
-    "static/js/main.8b5422c0.js"
+    "static/js/main.153c75d2.js"
   ]
 }
