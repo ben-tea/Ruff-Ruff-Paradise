@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ben-tea.github.io/Ruff-Ruff-Paradise",
+  "homepage": "https://www.ruffruffparadisepetcare.com",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
