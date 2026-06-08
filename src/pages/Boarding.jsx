@@ -17,11 +17,14 @@ function Boarding() {
             comfortable, and fun stay — almost like a vacation of their own.
           </p>
         </div>
-        <img
-          src={boardingImage}
-          alt="Dogs playing"
-          className="info-image"
-        />
+
+        <div className="image-wrapper">
+          <img
+            src={boardingImage}
+            alt="Dogs playing"
+            className="info-image"
+          />
+        </div>
       </div>
 
       {/* Combined Info Section */}
@@ -94,25 +97,21 @@ function Boarding() {
           1 hour of playtime. Puppies are given potty breaks every 1–2 hours.
         </p>
         <ul>
-          <li>30" Small – $28</li>
-          <li>36" Medium – $33</li>
-          <li>42" X-Large – $38</li>
-          <li>48" 3X-Large – $43</li>
-          <li>4' x 6' Suite – $48</li>
-          <li>Second pet in same enclosure – $20</li>
+          <li>30" Small – $30</li>
+          <li>36" Medium – $35</li>
+          <li>42" X-Large – $40</li>
+          <li>48" 3X-Large – $45</li>
+          <li>4' x 6' Suite – $50</li>
+          <li>Second pet in same enclosure – $25</li>
         </ul>
 
               <div className="photo-section">
         <div className="photo-content">
           <div className="photo-item">
-            <img
-              src={dogboarding1}
-            />
+            <img src={dogboarding1} alt="Dog Boarding 1"/>
           </div>
           <div className="photo-item">
-            <img
-              src={dogboarding2}
-            />
+            <img src={dogboarding2} alt="Dog Boarding 2"/>
           </div>
         </div>
       </div>
@@ -130,14 +129,10 @@ function Boarding() {
         <div className="photo-section">
         <div className="photo-content">
           <div className="photo-item">
-            <img
-              src={catboarding1}
-            />
+            <img src={catboarding1} alt="Cat Boarding 1"/>
           </div>
           <div className="photo-item">
-            <img
-              src={catboarding2}
-            />
+            <img src={catboarding2} alt="Cat Boarding 2"/>
           </div>
         </div>
       </div>
@@ -161,8 +156,8 @@ function Boarding() {
         <ul>
           <li>$6/day – Feeding with our food</li>
           <li>$6/day – Administer medication as requested</li>
-          <li>$8/day – Special needs care (assessed by staff)</li>
-          <li>$15/day – Each additional family pet in same cage or suite</li>
+          <li>$10/day – Special needs care (assessed by staff)</li>
+          <li>$25/day – Each additional pet in same cage or suite</li>
           <li>Exit Bath & Nail Service – See Grooming Price List</li>
         </ul>
       </div>

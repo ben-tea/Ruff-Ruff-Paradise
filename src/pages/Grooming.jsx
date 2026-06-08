@@ -14,11 +14,14 @@ function Grooming() {
             experienced professionals make sure your furry friend looks and feels their very best.
           </p>
         </div>
-        <img
-          src={groomingImage}
-          alt="Dog grooming"
-          className="info-image"
-        />
+
+        <div className="image-wrapper">
+          <img
+            src={groomingImage}
+            alt="Dog grooming"
+            className="info-image"
+          />
+        </div>
       </div>
 
 
@@ -101,16 +104,29 @@ function Grooming() {
           (Includes organic shampoo, nail trim, ear cleaning, and anal gland cleaning)
         </p>
         <ul>
-          <li>Small Dog (&lt;20 lbs, Short Hair) – $22</li>
-          <li>Small Dog (&lt;20 lbs, Long Hair) – $27</li>
-          <li>Medium Dog (20–29 lbs) – $32</li>
+          <li>Small Dog (&lt;10 lbs, Short Breed) – $22</li>
+          <li>Small Dog (10-19 lbs, Short Breed) – $25</li>
+          <li>Small Dog (&lt;20 lbs, Long Breed) – $29</li>
+          <li>Medium Dog (20–29 lbs) – $34</li>
+
           <li>
-            Large Dog (30–39 lbs) – $42 | (40–49 lbs) – $45 | (50–59 lbs) – $55 | (60–69
-            lbs) – $65
+            Large Dog 
+              <ul style={{ paddingLeft: '20px' }}>
+                <li>30–39 lbs – $45</li>
+                <li>40–49 lbs – $47</li>
+                <li>50–59 lbs – $58</li>
+                <li>60–69 lbs – $68</li> 
+              </ul>
           </li>
           <li>
-            Extra Large Dog (70–79 lbs) – $75 | (80–89 lbs) – $85 | (90–100 lbs) – $95 |
-            (100–110 lbs) – $110 | Over 110 lbs – $120
+            Extra Large Dog
+            <ul style={{ paddingLeft: '20px' }}>
+              <li>70–79 lbs – $78</li>
+              <li>80–89 lbs – $90</li>
+              <li>90–100 lbs – $100</li>
+              <li>100–110 lbs – $120</li>
+              <li>Over 110 lbs – $130</li>
+            </ul>
           </li>
         </ul>
 
@@ -120,15 +136,27 @@ function Grooming() {
           cleaning, and anal gland cleaning)
         </p>
         <ul>
-          <li>Small Dog (&lt;20 lbs) – $45</li>
-          <li>Medium Dog (20–29 lbs) – $55</li>
+          <li>Small Dog (&lt;10 lbs) – $45</li>
+          <li>Small Dog (10-19 lbs) – $47</li>
+          <li>Medium Dog (20–29 lbs) – $57</li>
           <li>
-            Large Dog (30–39 lbs) – $65 | (40–49 lbs) – $70 | (50–59 lbs) – $80 | (60–69
-            lbs) – $90
+            Large Dog 
+              <ul style={{ paddingLeft: '20px' }}>
+                <li>30–39 lbs – $67</li>
+                <li>40–49 lbs – $72</li>
+                <li>50–59 lbs – $85</li>
+                <li>60–69 lbs – $95</li>
+              </ul>
           </li>
           <li>
-            Extra Large Dog (70–79 lbs) – $100 | (80–89 lbs) – $110 | (90–100 lbs) – $125
-            | (100–110 lbs) – $140 | Over 110 lbs – $150
+            Extra Large Dog 
+            <ul style={{ paddingLeft: '20px' }}>
+              <li>70–79 lbs – $105</li>
+              <li>80–89 lbs – $115</li>
+              <li>90–100 lbs – $130</li>
+              <li>100–110 lbs – $150</li>
+              <li>Over 110 lbs – $160</li>
+            </ul>
           </li>
         </ul>
 
@@ -139,10 +167,9 @@ function Grooming() {
           <li>Teeth Brushing – $10</li>
           <li>Nail Buff – $8</li>
           <li>
-            Shampoo Upgrade – $6+ (Whitening, Medicated, Allergy Relief, Flea & Tick, Shed
+            Shampoo/Conditioner Upgrade – $6+ (Whitening, Medicated, Allergy Relief, Flea & Tick, Shed
             Control)
           </li>
-          <li>Conditioner – $6+</li>
           <li>Nail Clipping – $12</li>
         </ul>
 

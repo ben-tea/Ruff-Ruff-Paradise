@@ -33,16 +33,25 @@
   letter-spacing: 0.5px;
 }
 
-.info-image {
-  flex: 1;
-  width: clamp(250px, 40vw, 500px);
-  max-width: 500px;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: width 0.3s ease; 
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
 }
 
+.info-image {
+  width: auto;
+  height: auto;
+
+  max-width: 500px;
+  max-height: 500px;
+
+  display: block;
+  border-radius: 12px;
+  object-position: 50% 85%;
+}
 /* PROMOTION BLOCK */
 
 
@@ -170,9 +179,11 @@
 /* Tablets (≤ 1024px) */
 @media (max-width: 1024px) {
 
-  .info-image {
-    width: 10px;
+   .info-image {
+    width: 100%;
+    max-width: 450px;
   }
+
   .info-content {
     padding: 0 1rem;
   }
@@ -205,7 +216,8 @@
   }
 
   .info-image {
-  width: clamp(200px, 60vw, 400px); 
+    width: 100%;
+    max-width: 400px;
   }
 
   .info-text h2 {
@@ -231,7 +243,8 @@
 @media (max-width: 480px) {
 
   .info-image {
-  width: clamp(180px, 70vw, 350px);
+    width: 100%;
+    max-width: 100%;
   }
 
   .info-section {

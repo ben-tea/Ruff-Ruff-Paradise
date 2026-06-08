@@ -3,6 +3,7 @@ import { useState } from "react";
 import heroImage from "../Images/hero-image.JPG";
 import homeImage from "../Images/home-image.avif";
 import galleryImages from '../components/Gallery.js';
+import { Link } from "react-router-dom";
 
 function Home() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -36,13 +37,25 @@ function Home() {
           well-cared for while you're away.
         </p>
       </div>
+      <h3 className="services-heading">Our Services</h3>
+      <div className="buttons">
+        <Link to="/grooming" className="btn">
+          Grooming
+        </Link>
+
+        <Link to="/boarding" className="btn">
+          Boarding
+        </Link>
+      </div>
     </div>
 
-    <img
-      src={homeImage}
-      className="info-image"
-      alt="Happy pet with caretaker"
-    />
+    <div className="image-wrapper">
+      <img
+        src={homeImage}
+        className="info-image"
+        alt="Happy pet with caretaker"
+      />
+    </div>
   </div>
 </section>
 
