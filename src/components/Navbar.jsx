@@ -7,7 +7,7 @@ function Navbar() {
     <header className="header"> 
       <div className="header-content"> 
         <div className="logo">
-          <img src= {logo} alt="Ruff Ruff Paradise Logo" className="logo-img" />
+          <img src= {logo} alt="Logo" className="logo-img" />
           <h1>Ruff Ruff Paradise</h1>
         </div> 
         <nav className="nav-links"> 
