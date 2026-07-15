@@ -34,7 +34,7 @@ function Contact() {
       <div className="contact-section">
         <h3>Business Hours</h3>
         <ul>
-          <li>Monday: Friday: 9:00 AM – 4:00 PM</li>
+          <li>Monday – Friday: 9:00 AM – 4:00 PM</li>
           <li>Saturday: 10:00 AM – 4:00 PM</li>
           <li>Sunday: Closed</li>
         </ul>

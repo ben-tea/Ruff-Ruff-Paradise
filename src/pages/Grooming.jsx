@@ -104,10 +104,10 @@ function Grooming() {
           (Includes organic shampoo, nail trim, ear cleaning, and anal gland cleaning)
         </p>
         <ul>
-          <li>Small Dog (&lt;10 lbs, Short Breed) – $22</li>
-          <li>Small Dog (10-19 lbs, Short Breed) – $25</li>
-          <li>Small Dog (&lt;20 lbs, Long Breed) – $29</li>
-          <li>Medium Dog (20–29 lbs) – $34</li>
+          <li>Small Dog (&lt;10 lbs, Short Breed) – $23</li>
+          <li>Small Dog (10-19 lbs, Short Breed) – $26</li>
+          <li>Small Dog (&lt;20 lbs, Long Breed) – $30</li>
+          <li>Medium Dog (20–29 lbs) – $36</li>
 
           <li>
             Large Dog 
@@ -121,8 +121,8 @@ function Grooming() {
           <li>
             Extra Large Dog
             <ul style={{ paddingLeft: '20px' }}>
-              <li>70–79 lbs – $78</li>
-              <li>80–89 lbs – $90</li>
+              <li>70–79 lbs – $79</li>
+              <li>80–89 lbs – $93</li>
               <li>90–100 lbs – $100</li>
               <li>100–110 lbs – $120</li>
               <li>Over 110 lbs – $130</li>
@@ -137,25 +137,25 @@ function Grooming() {
         </p>
         <ul>
           <li>Small Dog (&lt;10 lbs) – $45</li>
-          <li>Small Dog (10-19 lbs) – $47</li>
-          <li>Medium Dog (20–29 lbs) – $57</li>
+          <li>Small Dog (10-19 lbs) – $50</li>
+          <li>Medium Dog (20–29 lbs) – $59</li>
           <li>
             Large Dog 
               <ul style={{ paddingLeft: '20px' }}>
-                <li>30–39 lbs – $67</li>
-                <li>40–49 lbs – $72</li>
-                <li>50–59 lbs – $85</li>
-                <li>60–69 lbs – $95</li>
+                <li>30–39 lbs – $69</li>
+                <li>40–49 lbs – $75</li>
+                <li>50–59 lbs – $88</li>
+                <li>60–69 lbs – $98</li>
               </ul>
           </li>
           <li>
             Extra Large Dog 
             <ul style={{ paddingLeft: '20px' }}>
-              <li>70–79 lbs – $105</li>
-              <li>80–89 lbs – $115</li>
-              <li>90–100 lbs – $130</li>
-              <li>100–110 lbs – $150</li>
-              <li>Over 110 lbs – $160</li>
+              <li>70–79 lbs – $110</li>
+              <li>80–89 lbs – $119</li>
+              <li>90–100 lbs – $135</li>
+              <li>100–110 lbs – $155</li>
+              <li>Over 110 lbs – $165</li>
             </ul>
           </li>
         </ul>

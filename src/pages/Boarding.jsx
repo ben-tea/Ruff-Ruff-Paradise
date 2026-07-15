@@ -10,7 +10,7 @@ function Boarding() {
     <section id="daycare" className="info-section">
       <div className="info-content reverse">
         <div className="info-text">
-          <h2>Daycare & Boarding Services</h2>
+          <h2>OvernightBoarding Services</h2>
           <p>
             Our spacious facility and 1-acre playground are a true paradise for dogs and
             cats! With professional, insured caretakers, your pet will enjoy a safe,
@@ -25,41 +25,6 @@ function Boarding() {
             className="info-image"
           />
         </div>
-      </div>
-
-      {/* Combined Info Section */}
-      <div className="boarding-section">
-        <h3>Daycare Information</h3>
-
-        <h4>Evaluation</h4>
-        <p>
-          To ensure the health, safety, and happiness of all pets, each dog undergoes an
-          evaluation to assess social skills in a group setting. This is the first step in
-          helping your dog have a fun, positive experience that will have them excited to
-          return for more playtime at Ruff Ruff Paradise!
-        </p>
-
-        <h4>Reservations</h4>
-        <p>
-          Due to high demand, advance reservations are strongly recommended. You can even
-          secure a spot in your dog’s favorite playgroup with a standing reservation.
-          Individual daily reservations can be made during business hours or online.
-          Walk-ins are welcome as space allows.
-        </p>
-
-        <h4>Feeding</h4>
-        <p>
-          We recommend feeding your dog at least one hour before drop-off. While we do not
-          provide meals during daycare, our staff is happy to accommodate special requests.
-          We’ll care for your pet like they are our own.
-        </p>
-
-        <h4>Flea & Tick Policy</h4>
-        <p>
-          Since pets enjoy plenty of outdoor play in our 1-acre playground, all dogs are
-          required to be on a veterinarian-approved flea and tick preventative to keep
-          everyone safe and healthy.
-        </p>
       </div>
 
       {/* Requirements */}
@@ -86,6 +51,14 @@ function Boarding() {
               Leukemia (required if your cat goes outdoors or has ever been outdoors)
             </li>
           </ul>
+        </div>
+
+        <div className="requirement-block">
+          <h4>Flea & Tick Policy</h4>
+          <p>
+            All pets are required to be on a veterinarian-approved flea and tick preventative to keep
+            everyone safe and healthy.
+          </p>
         </div>
       </div>
 
