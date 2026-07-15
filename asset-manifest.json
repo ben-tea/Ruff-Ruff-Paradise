@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.303570c1.css",
-    "main.js": "/static/js/main.d0df6e06.js",
+    "main.js": "/static/js/main.efc9366a.js",
     "static/media/daycare-image.jfif": "/static/media/daycare-image.f346202d22b64523ed23.jfif",
     "static/media/968d20_~mv2.avif": "/static/media/968d20_3343d7244d8e48e0841105afa9b5b411~mv2.a19bbfe86fd6837db4bb.avif",
     "static/media/968d20_~mv2_d_1920_3412_s_2.avif": "/static/media/968d20_e6fed5381e004674a2f6398856158e71~mv2_d_1920_3412_s_2.8a7c732cb74587c97b0f.avif",
@@ -23,10 +23,10 @@
     "static/media/grooming-image.avif": "/static/media/grooming-image.4d215641989878cc8461.avif",
     "index.html": "/index.html",
     "main.303570c1.css.map": "/static/css/main.303570c1.css.map",
-    "main.d0df6e06.js.map": "/static/js/main.d0df6e06.js.map"
+    "main.efc9366a.js.map": "/static/js/main.efc9366a.js.map"
   },
   "entrypoints": [
     "static/css/main.303570c1.css",
-    "static/js/main.d0df6e06.js"
+    "static/js/main.efc9366a.js"
   ]
 }
