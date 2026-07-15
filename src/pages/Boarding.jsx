@@ -10,7 +10,7 @@ function Boarding() {
     <section id="daycare" className="info-section">
       <div className="info-content reverse">
         <div className="info-text">
-          <h2>OvernightBoarding Services</h2>
+          <h2>Overnight Boarding Services</h2>
           <p>
             Our spacious facility and 1-acre playground are a true paradise for dogs and
             cats! With professional, insured caretakers, your pet will enjoy a safe,
