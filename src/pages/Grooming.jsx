@@ -170,7 +170,7 @@ function Grooming() {
             Shampoo/Conditioner Upgrade – $6+ (Whitening, Medicated, Allergy Relief, Flea & Tick, Shed
             Control)
           </li>
-          <li>Nail Clipping – $12</li>
+          <li>Nail Clipping – $12+</li>
         </ul>
 
         <p>
